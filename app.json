@@ -4,12 +4,13 @@
     "slug": "travelapp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/trippr-logo.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#ffffff",
+      "userInterfaceStyle": "automatic"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -19,12 +20,20 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/trippr-logo.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.abhishekr007.travelapp"
+      
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d3a32748-033a-46f3-8181-a8006735371b"
+      }
     }
+    
   }
 }
